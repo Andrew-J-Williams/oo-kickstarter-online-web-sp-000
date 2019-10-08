@@ -7,4 +7,6 @@ class Backer
     @backed_projects = [] # We also initialize our 'backed_projects' by setting it equal to an empty array.
   end
 
+  
+
 end
