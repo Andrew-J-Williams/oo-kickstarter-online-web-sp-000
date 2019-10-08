@@ -9,7 +9,6 @@ class Backer
 
   def back_project(project_name) # This method uses the argument of a 'Project' instance and pushes it into our 'backed_projects' array.
     @backed_projects << project_name
-    
   end
 
 end
