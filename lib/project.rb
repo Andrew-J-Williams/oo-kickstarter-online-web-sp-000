@@ -4,7 +4,7 @@ class Project
 
   def initialize(name)
     @title = title
-
+    @backers
   end
 
 
