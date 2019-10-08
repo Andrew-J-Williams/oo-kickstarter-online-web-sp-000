@@ -1,6 +1,6 @@
 class Backer
 
-  attr_reader :back_project 
+  attr_reader :back_project
 
   
 
