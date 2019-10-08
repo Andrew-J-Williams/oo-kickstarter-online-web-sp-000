@@ -9,7 +9,7 @@ class Project
 
   def add_backer(backer) # Accomplishes the same task as our 'back_project' method under the Backer class, just now for collecting backers.
     @backers << backer
-    backer.backed_projects << self
+    backer.backed_projects << self # Simply repeat the same logic but this time for the instance of the 'Project' class!
   end
 
 
