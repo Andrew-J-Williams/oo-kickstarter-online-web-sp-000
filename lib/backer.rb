@@ -1,5 +1,3 @@
-require 'pry'
-
 class Backer
 
   attr_reader :name, :backed_projects # The 'name' and 'backed_projects' are accessible through the reader.
