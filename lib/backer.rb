@@ -9,7 +9,7 @@ class Backer
 
   def back_project(project_name) # This method uses the argument of a 'Project' instance and pushes it into our 'backed_projects' array.
     @backed_projects << project_name
-    project_name.backers << self
+    project_name.backers << self # Since 'project_name' is our instance of the 'Project' class, we can access it's array with '.backers'.
   end
 
 end
